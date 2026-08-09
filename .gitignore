@@ -1,9 +1,8 @@
-logs/
-linux-stuff/
+scriptfiles/BannedPlayers.txt
 gamemodes/.convert-history
 scriptfiles/unban_log.txt
-scriptfiles/BannedPlayers.txt
-crashinfo.txt
-samp.ban
 server_log.txt
+crashinfo.txt
 svlog.txt
+samp.ban
+logs/
