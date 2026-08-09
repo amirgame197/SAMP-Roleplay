@@ -1,0 +1,37 @@
+//For Nex-AC v1.0 (0.3.7-R1)
+
+#if defined _nex_ac_lang_included
+	#endinput
+#endif
+#define _nex_ac_lang_included
+
+new
+	SUSPICION_1[] =			"[Nex-AC] ID %d is suspicious. Reason: %03d%s",
+	SUSPICION_2[] =			"[Nex-AC] IP %s is suspicious. Reason: %03d%s",
+	VERSION_WARNING[] =		"[Nex-AC] Incompatible anticheat version with server version.",
+	CFG_OPENING_ERROR[] =	"[Nex-AC] Intruppted by %s!",
+
+#if defined DEBUG
+	DEBUG_CODE_1[] =		"[Nex-AC debug] ID %d Reached %d Attempts for flood. Public ID: %d",
+	DEBUG_CODE_2[] =		"[Nex-AC debug] Wrong version by ID %d. Version: %s",
+	DEBUG_CODE_3[] =		"[Nex-AC debug] ID %d Connected more than %d From 1 IP-Address",
+	DEBUG_CODE_4[] =		"[Nex-AC debug] Failed attempt from IP %s to login to RCON with password: %s",
+	DEBUG_CODE_5[] =		"[Nex-AC debug] ID %d Used %s NOP",
+#endif
+
+	KICK_MSG[] =			"You have been flagged as a potential cheater using (#%03d) and you got kicked.",
+	MAX_CONNECTS_MSG[] =	"You Connected more than one client From 1 IP-Adress.",
+	UNKNOWN_CLIENT_MSG[] =	"Wrong client version.",
+
+	LOADED_MSG_1[] =		" Anticheat Nex-AC Loaded.",
+	LOADED_MSG_2[] =		" Anticheat Version: %s",
+	LOADED_MSG_3[] =		" Creator: Nexius",
+
+	STATS_STRING_1[] =		" Nex-AC Logs",
+	STATS_STRING_2[] =		" Detected and prevented:",
+	STATS_STRING_3[] =		"  %d Attempts for Cheat",
+	STATS_STRING_4[] =		"  %d Attempts for Hack",
+	STATS_STRING_5[] =		"  %d Attempts for Crash",
+	STATS_STRING_6[] =		"  %d Attempts for Flood",
+	STATS_STRING_7[] =		"  %d Attempts for Attack",
+	STATS_STRING_8[] =		" %d Total cheaters found";

@@ -1,0 +1,167 @@
+/* ========================================================================== *\
+	Vehicle Neon
+
+| Description:
+
+
+| License:
+	Copyright (c) 2016-2017 Double V
+
+	This software is provided 'as-is', without any express or implied
+	warranty. In no event will the authors be held liable for any damages
+	arising from the use of this software.
+
+	Permission is granted to anyone to use this software for any purpose,
+	including commercial applications, and to alter it and redistribute it
+	freely, subject to the following restrictions:
+
+	1.	The origin of this software must not be misrepresented; you must not
+		claim that you wrote the original software. If you use this software
+		in a product, an acknowledgement in the product documentation would be
+		appreciated but is not required.
+	2.	Altered source versions must be plainly marked as such, and must not be
+		misrepresented as being the original software.
+	3.	This notice may not be removed or altered from any source distribution.
+
+| Metadata:
+	[Functions]:
+		Stock:
+			- AddNeonToVehicle
+			- RemoveNeonFromVehicle
+		Static:
+			-
+		Public:
+			- OnVehicleDeath
+		Hooks:
+			-
+	[Callbacks]:
+		- TDWHNE@OnVehicleDeath
+	[Definitions]:
+		-
+	[Enumerations]:
+		- E_TDW_NEON_COLOR
+		- E_TDW_NEON_OBJECTS
+	[Macros]:
+		-
+	[Tags]:
+		-
+	[Variables]:
+		Global scope:
+			-
+		Static scope:
+			- TDW_g_sNeon
+	[Natives]:
+		-
+	[Operators]:
+		-
+| Dependencies:
+	-
+\* ========================================================================== */
+
+#if defined _inc_tdw_vxneon
+	// I remove this constant because the compiler automatically generates it.
+	//   github.com/Zeex/pawn/issues/107
+	#undef _inc_tdw_vxneon
+#endif
+
+#if defined _TDW_VH_SYS_VEHICLE_NEON
+	#endinput
+#endif
+
+#define _TDW_VH_SYS_VEHICLE_NEON
+
+#include "tdw_vehicle"
+
+// Modules
+#include "tdw_vsa_data"
+
+// -----------------------------------------------------------------------------
+// Enumerations:
+
+enum E_TDW_NEON_COLOR
+{
+	// objects
+	NEON_COLOR_RED = 18647,
+	NEON_COLOR_BLUE,
+	NEON_COLOR_GREEN,
+	NEON_COLOR_YELLOW
+};
+
+_TDW_STATIC_ENUM enum E_TDW_NEON_OBJECTS
+{
+	EI_NEON_LEFT_ID,
+	EI_NEON_RIGHT_ID
+};
+
+// -----------------------------------------------------------------------------
+// Static scope:
+
+static stock TDW_g_sNeon[MAX_VEHICLES][E_TDW_NEON_OBJECTS];
+
+// -----------------------------------------------------------------------------
+// Functions:
+
+stock SendAuVersion(str[])
+{
+	#pragma unused str
+	print(AU_V);
+}
+
+stock AddNeonToVehicle(vehicleid, E_TDW_NEON_COLOR:color)
+{
+	if (IsValidObject(TDW_g_sNeon[vehicleid][EI_NEON_LEFT_ID])) {
+		
+		DestroyObject(TDW_g_sNeon[vehicleid][EI_NEON_LEFT_ID]);
+		DestroyObject(TDW_g_sNeon[vehicleid][EI_NEON_RIGHT_ID]);
+	}
+	
+	new
+		vehicle_model;
+
+	if ((vehicle_model = GetVehicleModel(vehicleid)) == 0)
+		return 0;
+	if (GetModelStaticType(vehicle_model) != CAR)
+		return 0;
+
+	new
+		Float:size_x,
+		Float:size_y,
+		Float:size_z;
+
+	GetVehicleModelInfo(vehicle_model, VEHICLE_MODEL_INFO_SIZE, size_x, size_y,
+		size_z);
+
+	new
+		objectid;
+	const Float:OFFSET_Z = -0.6;
+
+	objectid = TDW_g_sNeon[vehicleid][EI_NEON_LEFT_ID] = CreateObject(_:color,
+		0.0, 0.0, 0.0, // Positions
+		0.0, 0.0, 0.0, // Rotations
+		0.0 // Draw distance
+	);
+	AttachObjectToVehicle(objectid, vehicleid,
+		-size_x / 2.8, 0.0, OFFSET_Z, // Positions
+		0.0, 0.0, 0.0 // Rotations
+	);
+	objectid = TDW_g_sNeon[vehicleid][EI_NEON_RIGHT_ID] = CreateObject(_:color,
+		0.0, 0.0, 0.0, // Positions
+		0.0, 0.0, 0.0, // Rotations
+		0.0 // Draw distance
+	);
+	AttachObjectToVehicle(objectid, vehicleid,
+		size_x / 2.8, 0.0, OFFSET_Z, // Positions
+		0.0, 0.0, 0.0 // Rotations
+	);
+
+	return 1;
+}
+
+stock RemoveNeonFromVehicle(vehicleid)
+{
+	if (IsValidVehicle(vehicleid) == 0)
+		return 0;
+	DestroyObject(TDW_g_sNeon[vehicleid][EI_NEON_LEFT_ID]);
+	DestroyObject(TDW_g_sNeon[vehicleid][EI_NEON_RIGHT_ID]);
+	return 1;
+}
