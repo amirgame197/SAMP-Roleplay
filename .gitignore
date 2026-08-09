@@ -1,0 +1,9 @@
+logs/
+pawno/
+gamemodes/.convert-history
+scriptfiles/unban_log.txt
+scriptfiles/BannedPlayers.txt
+crashinfo.txt
+samp.ban
+server_log.txt
+svlog.txt
