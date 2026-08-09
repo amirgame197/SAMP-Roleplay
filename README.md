@@ -1,6 +1,9 @@
 # SAMP-Roleplay
 A full roleplay game mode for SAMP.
 
+Supposed to be multi-platform (Windows + Linux).<br>
+Currently, only Windows is supported.
+
 ## Windows Setup
 
 ### Install and Setup MySQL (or MariaDB)
