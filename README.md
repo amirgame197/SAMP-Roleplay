@@ -15,7 +15,7 @@ Currently, only Windows is supported.
 ### Compile Gamemodes and Scripts
 ```bash
 cd pawno
-bin\pawncc.exe "..\gamemodes\roleplay.pwn" -i"include" -o"..\gamemodes\roleplay.amx"
+bin\pawncc.exe "..\gamemodes\sources\roleplay.pwn" -i"include" -o"..\gamemodes\roleplay.amx"
 
 # Compile filterscripts as needed
 bin\pawncc.exe "..\filterscripts\sources\3DSpeedo.pwn" -i"include" -o"..\filterscripts\3DSpeedo.amx"

@@ -1426,9 +1426,9 @@ new quest_info[][] =
 	\thead to the specified coordinates and place the stash there. \n\tYou need to do this quickly..\n\
  	\n\tAs quickly as possible!\n\n",
 
-	"\n\t{FFFFFF}You're on time, yesterday my second car was confiscated at the parking lot, \n\tif they open the trunk, I’m finished\n\
-	\tThere’s a whole trunk full of drugs, I hid it so that no one could find it\n\
-	\tAnd just my luck the police stumbled upon it, \n\tI don’t know how much time I have left\n\
+	"\n\t{FFFFFF}You're on time, yesterday my second car was confiscated at the parking lot, \n\tif they open the trunk, Iï¿½m finished\n\
+	\tThereï¿½s a whole trunk full of drugs, I hid it so that no one could find it\n\
+	\tAnd just my luck the police stumbled upon it, \n\tI donï¿½t know how much time I have left\n\
 	\tBefore they start searching it, I need to get it out of the parking lot as soon as possible\n\
 	\tYou need to get the documents from the police archive about the car\n\
 	\tSo my guy can retrieve it safely\n\
@@ -1436,13 +1436,13 @@ new quest_info[][] =
 	\tlook for my car number on the list and grab the documents, model: {ff0000}Glendale\n\
 	\t{FFFFFF}Don't overlook the number, otherwise, you'll grab the documents for another car!\n",
 
-	"\n\t{FFFFFF}Listen, I don’t have time to explain, you need to do this for me!\n\n\
+	"\n\t{FFFFFF}Listen, I donï¿½t have time to explain, you need to do this for me!\n\n\
 	\tYou need to somehow get into the cop database and delete my Name from the database\n\
 	\tYou can access the database through a police car, but for that, you need a\n\
 	\tpolice access key, you can only get it \n\tif you rob or take out a police officer\n\
-	\tIt’s very dangerous, but I’m asking you to do this for me, \n\tas soon as you get the access key\n\
+	\tItï¿½s very dangerous, but Iï¿½m asking you to do this for me, \n\tas soon as you get the access key\n\
 	\tHead to the police station, get in a police vehicle and enter the database\n\
-	\tDelete my Name and get out of there, just don’t leave any traces!\n\n"
+	\tDelete my Name and get out of there, just donï¿½t leave any traces!\n\n"
 };
 
 new quest_text_end[][] =
@@ -1450,31 +1450,31 @@ new quest_text_end[][] =
 	"\n\t{FFFFFF}Well done, you completed the first task, \n\tkeep it up and you'll gain access to my warehouse, \n\tmy car was stolen by guys from the gang you are fighting.\n\
 	\tI'll have to make a few calls to sort everything out.\n\n",
 
-	"\n\t{FFFFFF}You learn quickly... \n\tI thought you’d take longer, you’ll go far..\n\
-	\tI have a new assignment for you, I’ve been informed that the guys you’re fighting with are planning something big\n\
+	"\n\t{FFFFFF}You learn quickly... \n\tI thought youï¿½d take longer, youï¿½ll go far..\n\
+	\tI have a new assignment for you, Iï¿½ve been informed that the guys youï¿½re fighting with are planning something big\n\
 	\tThey need to be put in their place before they cause any trouble, \n\tyou need to win a territory capture once\n\n",
 
 	"\n\t{FFFFFF}If you could see the face of my acquaintance who watched your capture from the sidelines\n\
-	\tI didn’t believe it at first, but when he started describing it in detail... \n\
-	\tI’m even scared now to deal with you, just kidding.. \n\n\tCome see me later.\n\n",
+	\tI didnï¿½t believe it at first, but when he started describing it in detail... \n\
+	\tIï¿½m even scared now to deal with you, just kidding.. \n\n\tCome see me later.\n\n",
 
 	"\n\t{FFFFFF}How did you manage to do it? To get it, you need to go through a bunch of obstacles\n\
 	\tYou did great, with each task you show your loyalty, I appreciate such people\n\
 	\tI still have a couple of tasks for you, but more on that later.\n\n",
 
-	"\n\t{FFFFFF}I just found out that my regular client got caught\n\t now he’s cooperating with the cops\n\
-	 \tI’m in deep trouble, damn it, \n\tI’ll have to figure this out somehow.\n\n",
+	"\n\t{FFFFFF}I just found out that my regular client got caught\n\t now heï¿½s cooperating with the cops\n\
+	 \tIï¿½m in deep trouble, damn it, \n\tIï¿½ll have to figure this out somehow.\n\n",
 
 	"\n\t{FFFFFF}You broke into the precinct and stole the documents? Boy, you have some steel balls\n\
 	\tYou risked your freedom for me, I will never forget this\n\
 	\tYou said you deserve to receive supplies from my warehouse, come see me later\n\
-	\tAnd I’ll show you what to do here.\n\n",
+	\tAnd Iï¿½ll show you what to do here.\n\n",
 
 	"\n\t{FFFFFF}You did a great job, I could have been caught today\n\
-	\tYou saved my life, I can’t help but thank you\n\t\
-	\tIn the back yard, there’s a van, it has all the resources from my warehouse,\n\
+	\tYou saved my life, I canï¿½t help but thank you\n\t\
+	\tIn the back yard, thereï¿½s a van, it has all the resources from my warehouse,\n\
 	\tyou decide what to do with them, some will pay good money for such cargo\n\n\
-	\tYou can sell it for {3399FF}175,000{FFFFFF} or take it to your gang’s {ff0000}warehouse{FFFFFF}, \n\tyou decide\n\n"
+	\tYou can sell it for {3399FF}175,000{FFFFFF} or take it to your gangï¿½s {ff0000}warehouse{FFFFFF}, \n\tyou decide\n\n"
 };
 
 enum E_QUEST_STRUCT
@@ -2620,10 +2620,10 @@ new Text:black_display[MAX_PLAYERS];
 #define c_grey      		"{AFAFAF}"
 #define c_silver            "{C0C0C0}"
 
-#define c_sucess            ""c_green"—"c_white""
-#define c_error            	""c_red"—"c_white""
-#define c_info            	""c_gold"—"c_white""
-#define c_serv            	""c_server"—"c_white""
+#define c_sucess            ""c_green"ï¿½"c_white""
+#define c_error            	""c_red"ï¿½"c_white""
+#define c_info            	""c_gold"ï¿½"c_white""
+#define c_serv            	""c_server"ï¿½"c_white""
 
 #define col_yellow          0xFFFF00FF
 #define col_white 			0xFFFFFFFF
@@ -6245,11 +6245,11 @@ squidgame[210] = CreateObject(19464, 1459.7708, 1627.1204, 19.6142, -0.0999, -90
 	//--------------------------------------Mafia Map-----------------------------------------------------//
 	new svrMafia;
 	svrMafia = CreateDynamicObject(18753 , -1983.211182 , 1180.522827 , 107.747902 , 0.000000 , 0.000000 , 0.000000); // This Line Recorded By Smart Recorder
-	SetDynamicObjectMaterialText(svrMafia , 0 , " " , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
+	SetDynamicObjectMaterialText(svrMafia , 0 , "ï¿½" , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
 	svrMafia = CreateDynamicObject(19380 , -1984.611694 , 1185.614014 , 112.307899 , 0.000000 , 90.000000 , 0.000000); // This Line Recorded By Smart Recorder
-	SetDynamicObjectMaterialText(svrMafia , 0 , " " , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
+	SetDynamicObjectMaterialText(svrMafia , 0 , "ï¿½" , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
 	svrMafia = CreateDynamicObject(18753 , -2021.845337 , 1115.112915 , 52.404900 , 0.000000 , 0.000000 , 0.000000); // This Line Recorded By Smart Recorder
-	SetDynamicObjectMaterialText(svrMafia , 0 , " " , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
+	SetDynamicObjectMaterialText(svrMafia , 0 , "ï¿½" , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
 	svrMafia = CreateDynamicObject(19353 , -1982.705444 , 1180.581421 , 110.007858 , 0.000000 , 0.000000 , 0.000000); // This Line Recorded By Smart Recorder
 	SetDynamicObjectMaterial(svrMafia , 0 , 3598 , "hillhousex_la1_2" , "bevdoor04_law" , 0); // This Line Recorded By Smart Recorder
 	svrMafia = CreateDynamicObject(19866 , -1982.880981 , 1182.180664 , 109.369820 , -89.999992 , 89.999992 , 89.999992); // This Line Recorded By Smart Recorder
@@ -41810,11 +41810,11 @@ CreateObject(846, -1512.23315, 2261.02197, 333.87390,   -4.00000, 0.00000, 18.00
 	//MafiaMap
 	new svrTmp;
 	svrTmp = CreateDynamicObject(18753 , -1983.211182 , 1180.522827 , 107.747902 , 0.000000 , 0.000000 , 0.000000); // This Line Recorded By Smart Recorder
-	SetDynamicObjectMaterialText(svrTmp , 0 , " " , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
+	SetDynamicObjectMaterialText(svrTmp , 0 , "ï¿½" , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
 	svrTmp = CreateDynamicObject(19380 , -1984.611694 , 1185.614014 , 112.307899 , 0.000000 , 90.000000 , 0.000000); // This Line Recorded By Smart Recorder
-	SetDynamicObjectMaterialText(svrTmp , 0 , " " , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
+	SetDynamicObjectMaterialText(svrTmp , 0 , "ï¿½" , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
 	svrTmp = CreateDynamicObject(18753 , -2021.845337 , 1115.112915 , 52.404900 , 0.000000 , 0.000000 , 0.000000); // This Line Recorded By Smart Recorder
-	SetDynamicObjectMaterialText(svrTmp , 0 , " " , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
+	SetDynamicObjectMaterialText(svrTmp , 0 , "ï¿½" , 90 , "Arial" , 24 , 1 , -256 , 0 , 0); // This Line Recorded By Smart Recorder
 	svrTmp = CreateDynamicObject(19353 , -1982.705444 , 1180.581421 , 110.007858 , 0.000000 , 0.000000 , 0.000000); // This Line Recorded By Smart Recorder
 	SetDynamicObjectMaterial(svrTmp , 0 , 3598 , "hillhousex_la1_2" , "bevdoor04_law" , 0); // This Line Recorded By Smart Recorder
 	svrTmp = CreateDynamicObject(19866 , -1982.880981 , 1182.180664 , 109.369820 , -89.999992 , 89.999992 , 89.999992); // This Line Recorded By Smart Recorder
@@ -42998,6 +42998,25 @@ CreateObject(846, -1512.23315, 2261.02197, 333.87390,   -4.00000, 0.00000, 18.00
 	DestroyObject(objcount);
 	SetTimer("HungerSystem", 1000, 1); SetTimer("HungerValues", 230000, 1); SetTimer("ValueHungerDown", 26000, 1);
 	SetTimer("WaterSystem", 1000, 1); SetTimer("WaterValues", 230000, 1); SetTimer("ValueWaterDown", 26000, 1);
+
+	// Register command aliases
+	PC_RegAlias("lights", "lg");
+	PC_RegAlias("engine", "en");
+	PC_RegAlias("licenses", "license");
+	PC_RegAlias("report", "rep");
+	PC_RegAlias("n", "b");
+	PC_RegAlias("megaphone", "m");
+	PC_RegAlias("suspect", "su");
+	PC_RegAlias("setspawn", "changespawn", "spa");
+	PC_RegAlias("gps", "tp");
+	PC_RegAlias("quest", "event");
+	PC_RegAlias("donate", "donate", "done");
+	PC_RegAlias("re", "sp");
+	PC_RegAlias("reoff", "spoff");
+	PC_RegAlias("menu", "mm", "mn");
+	PC_RegAlias("lock", "lk");
+	PC_RegAlias("jp", "Jetpack.", "Jet.");
+
 	return 1;
 }
 
@@ -43048,7 +43067,8 @@ function ValueHungerDown()
 
 function CheckYourGoshnegi(playerid)
 {
-	new Float:health = GetPlayerHealth(playerid, health);
+	new Float:health;
+	GetPlayerHealth(playerid, health);
 	if(p_info[playerid][pLogin] == 1)
 	{
 		if(p_info[playerid][pHungry] < 30)
@@ -43120,7 +43140,8 @@ function WaterHungerDown()
 
 function CheckYourWater(playerid)
 {
-	new Float:health = GetPlayerHealth(playerid, health);
+	new Float:health;
+	GetPlayerHealth(playerid, health);
 	if(p_info[playerid][pLogin] == 1)
 	{
 		if(p_info[playerid][pWater] < 20)
@@ -44730,7 +44751,7 @@ cmd:fmenu(playerid)
     strcat(slobal_string, ""c_server"[2]"c_white" Family members ["c_green"online"c_white"]\n");
     strcat(slobal_string, ""c_server"[3]"c_white" Family members ["c_orange_red"offline"c_white"]\n");
     strcat(slobal_string, ""c_server"[4]"c_white" Family settings\n");
-    format(text_string, sizeof(text_string), ""c_server"[5]"c_white" Family house: "c_yellow"?„–%d\n", family_info[family_id - 1][fam_house]);
+    format(text_string, sizeof(text_string), ""c_server"[5]"c_white" Family house: "c_yellow"?ï¿½ï¿½%d\n", family_info[family_id - 1][fam_house]);
     strcat(slobal_string, text_string);
     strcat(slobal_string, ""c_server"[6]"c_white" Transfer the Family\n");
     strcat(slobal_string, ""c_server"[7]"c_white" Leave Family\n");
@@ -46946,7 +46967,6 @@ CMD:car(playerid)
 	return SPD(playerid, 4710, DIALOG_STYLE_TABLIST, !""c_server"Slot selection", String, "Choose", "Back");
 }
 
-alias:lights("lg");
 CMD:lights(playerid)
 {
     if(GetPlayerState(playerid) != PLAYER_STATE_DRIVER) return SendClientMessage(playerid, COLOR_GREY, "You are not in the driver's seat.");
@@ -46979,7 +46999,6 @@ CMD:lights(playerid)
 	return SetVehicleParamsEx(vehicleid,engine,1,alarm,doors,bonnet,boot,objective);
 }
 
-alias:engine("en");
 CMD:engine(playerid)
 {
     if(GetPlayerState(playerid) != PLAYER_STATE_DRIVER) return SendClientMessage(playerid, COLOR_GREY, "You are not in the driver's seat.");
@@ -47072,7 +47091,6 @@ CMD:fishing(playerid)// ?????? ????
 	return 1;
 }
 
-alias:licenses("license");
 CMD:licenses(playerid, params[])
 {
     extract params -> new to_player; else return SendClientMessage(playerid, -1, "/licenses(/lic) [Player id]");
@@ -47219,7 +47237,7 @@ CMD:initradar(playerid, params[])
 		new Float:x, Float:y, Float:z, Float:angle, radar_speed;
 		GetPlayerPos(playerid,x,y,z);
 		GetPlayerFacingAngle(playerid, angle);
-		if(sscanf(params,"i", radar_speed)) return SendClientMessage(playerid,0xffffffFF, "• {FFCC00}[Hint] "c_white"/initradar [radar_speed](????? ? before???? ?????? ???????)");
+		if(sscanf(params,"i", radar_speed)) return SendClientMessage(playerid,0xffffffFF, "ï¿½ {FFCC00}[Hint] "c_white"/initradar [radar_speed](????? ? before???? ?????? ???????)");
 		InitRadar(Float:x, Float:y, Float:z, Float:angle, radar_speed, true);
 		return 1;
 	}
@@ -47423,7 +47441,6 @@ CMD:frisk(playerid, params[])
 	return 1;
 }
 
-alias:report("rep");
 cmd:report(playerid)
 {
     if(p_info[playerid][mute] > 0) return PlayerMuted(playerid);
@@ -47513,7 +47530,6 @@ CMD:do(playerid, params[])
 	return 1;
 }
 
-alias:n("b");
 CMD:n(playerid, params[])
 {
     if(p_info[playerid][mute] > 0) return PlayerMuted(playerid);
@@ -48298,7 +48314,6 @@ CMD:uncuff(playerid, params[])
 	return 1;
 }
 
-alias:megaphone("m");
 CMD:megaphone(playerid,params[])
 {
     if(!IsACop(playerid) && !IsAArmy(playerid)) return SendClientMessage(playerid, COLOR_GREY, "You cannot use this command.");
@@ -48433,7 +48448,6 @@ CMD:dn(playerid, params[])
 	return 1;
 }
 
-alias:suspect("su");
 CMD:suspect(playerid, params[])
 {
     if(!IsACop(playerid)) return SendClientMessage(playerid, COLOR_GREY, "Only factions and FBI are allowed.");
@@ -48894,7 +48908,6 @@ CMD:members(playerid, params[])
 	return SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Eezay The organization online", String, "Close", "");
 }
 
-alias:setspawn("changespawn", "spa");
 cmd:setspawn(playerid)
 {
     SPD(playerid, 8, DIALOG_STYLE_LIST, !""c_server"Choose Your Spawn Location", !""c_server"[1]"c_white" At the station\n"c_server"[2]"c_white" In your own House\n"c_server"[3]"c_white" organization's base\n"c_server"[4]"c_white" In the hotel\n"c_server"[5]"c_white" In the family House", !"Choose", !"Cancel");
@@ -49675,7 +49688,6 @@ cmd:gps(playerid, params[])
 	"c_server"[14]"c_white" Nearest ATM\n", !"Choose", !"Cancel");
 	return 1;
 }
-alias:gps("tp");
 
 CMD:f(playerid, params[])
 {
@@ -49769,8 +49781,6 @@ CMD:atm(playerid)
 }
 
 CMD:quest(playerid) return ShowPlayerBegQuests(playerid);
-alias:quest("event");
-
 
 CMD:bank(playerid)
 {
@@ -49804,7 +49814,6 @@ cmd:donate(playerid)
 	"c_server"[14]"c_white" Hostry 1000 Donates", !"Choose", !"Close");
 	return 1;
 }
-alias:donate("donate", "done");
 
 stock UpdateDonate(playerid)
 {
@@ -50202,7 +50211,6 @@ cmd:arep(playerid, params[])
 	return 1;
 }
 
-alias:re("sp");
 cmd:re(playerid, params[])
 {
     if(admin_level[playerid] < 2 || !admin_logged[playerid]) return 1;
@@ -50227,7 +50235,6 @@ cmd:re(playerid, params[])
 	return 1;
 }
 
-alias:reoff("spoff");
 cmd:reoff(playerid, params[])
 {
     if(admin_level[playerid] < 2 || !admin_logged[playerid]) return 1;
@@ -50964,7 +50971,7 @@ cmd:offmute(playerid, params[])
 
 	cache_delete(result);
 
-	if(seconds) return SendClientMessage(playerid, col_white, !""c_error"This player’s chat has already been blocked.");
+	if(seconds) return SendClientMessage(playerid, col_white, !""c_error"This playerï¿½s chat has already been blocked.");
 
     p_info[playerid][pAdmMute]++;
     OnPlayerUpdateAdminPer(playerid, "pAdmMute", p_info[playerid][pAdmMute]);
@@ -52432,7 +52439,6 @@ CMD:t(playerid, params[])
 	return 1;
 }
 
-alias:menu("mm", "mn");
 cmd:menu(playerid, params[])
 {
 	SPD(playerid, 85, DIALOG_STYLE_LIST, !""c_server"Game Menu", !"\
@@ -52932,7 +52938,6 @@ CMD:key(playerid)
 	return 1;
 }
 
-alias:lock("lk");
 cmd:lock(playerid, params[])
 {
 	extract params -> new lock_type; else return SendClientMessage(playerid, col_grey, !"Use: /lock [type] (1 - Home car 2 - Rented car 3 - Work vehicle 4 - Family car)");
@@ -56700,7 +56705,7 @@ public OnPlayerEnterDynamicArea(playerid, areaid)
 	    //if(!(5 <= DayOfWeak() <= 7)) return SendClientMessage(playerid, COLOR_GREY, "There is no work today, come back another time.");
 
 	    if(player_quest_info[playerid][quest_block] != 0)
-	        return SendClientMessage(playerid, COLOR_GREY, "I don’t have any work for you right now.");
+	        return SendClientMessage(playerid, COLOR_GREY, "I donï¿½t have any work for you right now.");
 
 	    new q_id = player_quest_info[playerid][quest_id];
 	    new q_status = player_quest_info[playerid][quest_status];
@@ -57416,7 +57421,7 @@ public OnPlayerPickUpDynamicPickup(playerid, pickupid) //For Dynamic Puckup
     {
         if(p_info[playerid][pMember] != 7) return SendClientMessage(playerid, COLOR_GREY, "Available only to bikers!");
 
-        if(player_fuel_steal[playerid] == 0) return SendClientMessage(playerid, COLOR_GREY, "You don’t have fuel for sale. To start, rob a gas station.");
+        if(player_fuel_steal[playerid] == 0) return SendClientMessage(playerid, COLOR_GREY, "You donï¿½t have fuel for sale. To start, rob a gas station.");
 
         new reward = player_fuel_steal[playerid] * 50;
 
@@ -58113,7 +58118,7 @@ public OnPlayerPickUpPickup(playerid, pickupid) //For Pickup
 	    p_info[playerid][pJob] = WORK_TYPE_PIZZA;
 
 	    SendClientMessage(playerid, -1, "You successfully got hired as a pizza delivery person.");
-	    SendClientMessage(playerid, 0x33AAFFff, "• {FFCC00}[Hint]: "c_white"Go to the back yard and take the pizza.");
+	    SendClientMessage(playerid, 0x33AAFFff, "ï¿½ {FFCC00}[Hint]: "c_white"Go to the back yard and take the pizza.");
 	}
 	else if(pickupid == pizza_take_pickup)
 	{
@@ -62795,7 +62800,7 @@ if(dialogid == DIALOG_HOOKAH)
 			//new vehicleid = player_home_car[playerid][use_car];
 			GetPlayerPos(playerid, x,y,z);
 			GetPlayerFacingAngle(playerid, Angle);
-			if(p_info[playerid][pCash] < 8000) return SendClientMessage(playerid, COLOR_RED, "You don’t have enough money!");
+			if(p_info[playerid][pCash] < 8000) return SendClientMessage(playerid, COLOR_RED, "You donï¿½t have enough money!");
 			GivePlayerMoneyEx(playerid, -8000, "Spawn Car 8 k");
 			LoadMyCar(playerid, use_car);
 			SetVehiclePos(player_home_car[playerid][use_car], x,y,z);
@@ -65453,12 +65458,12 @@ if(dialogid == DIALOG_HOOKAH)
 				case 9:
 				{
 					SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Family", !"\
-					"c_server"/fmenu"c_white" — Family menu\n\
-					"c_server"/finvite"c_white" — accept into family\n\
-					"c_server"/funinvite"c_white" — remove from Family\n\
-					"c_server"/frang"c_white" — make / give beforelack\n\
-					"c_server"/fmute"c_white" — mute family chat\n\
-					"c_server"/funmute"c_white" — unmute family chat", !"Close", !"");
+					"c_server"/fmenu"c_white" ï¿½ Family menu\n\
+					"c_server"/finvite"c_white" ï¿½ accept into family\n\
+					"c_server"/funinvite"c_white" ï¿½ remove from Family\n\
+					"c_server"/frang"c_white" ï¿½ make / give beforelack\n\
+					"c_server"/fmute"c_white" ï¿½ mute family chat\n\
+					"c_server"/funmute"c_white" ï¿½ unmute family chat", !"Close", !"");
 				}
 			}
 		}
@@ -68970,150 +68975,150 @@ SendClientMessage(playerid, COLOR_YELLOW, !""c_server"Bag successfully activated
 		            if(admin_level[playerid] < 1) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Helper", !"\
-		            "c_server"/sc"c_white" — Game chat for help with Nick\n\
-		            "c_server"/alogin"c_white" — Admin Login\n\
-		            "c_server"/aexit"c_white" — Exit from Admin\n\
-		            "c_server"/ans"c_white" — Ask a question from Player\n\
-		            "c_server"/srep"c_white" — Response to Player Report\n\
-		            "c_server"/admins"c_white" — Online Admins", !"Close", !"");
+		            "c_server"/sc"c_white" ï¿½ Game chat for help with Nick\n\
+		            "c_server"/alogin"c_white" ï¿½ Admin Login\n\
+		            "c_server"/aexit"c_white" ï¿½ Exit from Admin\n\
+		            "c_server"/ans"c_white" ï¿½ Ask a question from Player\n\
+		            "c_server"/srep"c_white" ï¿½ Response to Player Report\n\
+		            "c_server"/admins"c_white" ï¿½ Online Admins", !"Close", !"");
 		        }
 		        case 1:
 		        {
 		            if(admin_level[playerid] < 2) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Admin New", !"\
-		            "c_server"/a"c_white" — Admin Chat\n\
-		            "c_server"/arep"c_white" — Response to Player Report\n\
-		            "c_server"/sp | /offsp"c_white" — Start / Stop Watching Player\n\
-		            "c_server"/pstats | /offpstats"c_white" — Player Statistics\n\
-		            "c_server"/frz"c_white" — Freeze / Unfreeze Player\n\
-		            "c_server"/ajail"c_white" — Jail [id] [Time] [Reason] (< 30)\n\
-		            "c_server"/mute"c_white" — Mute Player (< 60)\n\
-		            "c_server"/spawn"c_white" — Spawn Player\n\
-		            "c_server"/kick"c_white" — Kick Player from Server\n\
-					"c_server"/hp"c_white" — Give Health\n\
-					"c_server"/okay"c_white" — Confirm nonRP Nick change\n\
-					"c_server"/nookay"c_white" — Cancel nonRP Nick change", !"Close", !"");
+		            "c_server"/a"c_white" ï¿½ Admin Chat\n\
+		            "c_server"/arep"c_white" ï¿½ Response to Player Report\n\
+		            "c_server"/sp | /offsp"c_white" ï¿½ Start / Stop Watching Player\n\
+		            "c_server"/pstats | /offpstats"c_white" ï¿½ Player Statistics\n\
+		            "c_server"/frz"c_white" ï¿½ Freeze / Unfreeze Player\n\
+		            "c_server"/ajail"c_white" ï¿½ Jail [id] [Time] [Reason] (< 30)\n\
+		            "c_server"/mute"c_white" ï¿½ Mute Player (< 60)\n\
+		            "c_server"/spawn"c_white" ï¿½ Spawn Player\n\
+		            "c_server"/kick"c_white" ï¿½ Kick Player from Server\n\
+					"c_server"/hp"c_white" ï¿½ Give Health\n\
+					"c_server"/okay"c_white" ï¿½ Confirm nonRP Nick change\n\
+					"c_server"/nookay"c_white" ï¿½ Cancel nonRP Nick change", !"Close", !"");
 		        }
 		        case 2:
 		        {
 		            if(admin_level[playerid] < 3) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Admin Simple", !"\
-					"c_server"/ban"c_white" — Ban Player (< 10)\n\
-					"c_server"/ajail"c_white" — Jail [id] [Time] [Reason] (< 120)\n\
-					"c_server"/mute"c_white" — Mute Player\n\
-					"c_server"/goto"c_white" — Teleport to Player\n\
-					"c_server"/gethere"c_white" — Bring player to you\n\
-					"c_server"/fix"c_white" — Repair Vehicle (ID)\n\
-					"c_server"/gotcar"c_white" — Teleport to Player\n\
-					"c_server"/getcar"c_white" — Bring player to you\n\
-					"c_server"/recar"c_white" — spawn vehicle (ID)", !"Close", !"");
+					"c_server"/ban"c_white" ï¿½ Ban Player (< 10)\n\
+					"c_server"/ajail"c_white" ï¿½ Jail [id] [Time] [Reason] (< 120)\n\
+					"c_server"/mute"c_white" ï¿½ Mute Player\n\
+					"c_server"/goto"c_white" ï¿½ Teleport to Player\n\
+					"c_server"/gethere"c_white" ï¿½ Bring player to you\n\
+					"c_server"/fix"c_white" ï¿½ Repair Vehicle (ID)\n\
+					"c_server"/gotcar"c_white" ï¿½ Teleport to Player\n\
+					"c_server"/getcar"c_white" ï¿½ Bring player to you\n\
+					"c_server"/recar"c_white" ï¿½ spawn vehicle (ID)", !"Close", !"");
 		        }
 		        case 3:
 		        {
 		            if(admin_level[playerid] < 4) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Admin Senior", !"\
-					"c_server"/ban"c_white" — Block Player account (< 30)\n\
-					"c_server"/fip"c_white" — existing accounts by IP address\n\
-					"c_server"/unwarn"c_white" — Remove warning from Player\n\
-					"c_server"/unmute"c_white" — Unblock Player's chat\n\
-					"c_server"/unajail"c_white" — Release Player from prison\n\
-					"c_server"/slap"c_white" — Toss Player\n\
-					"c_server"/veh"c_white" — Create vehicle\n\
-					"c_server"/delveh"c_white" — Delete created vehicle\n\
-					"c_server"/delvehall"c_white" — Delete all created vehicles\n\
-					"c_server"/plveh"c_white" — Give temporary vehicle to Player\n\
-					"c_server"/getip"c_white" — Find out Player's IP\n\
-					"c_server"/offmute"c_white" — Block Player's chat while offline\n\
-					"c_server"/offajail"c_white" — Put Player in jail while offline\n\
-					"c_server"/offwarn"c_white" — Issue a warning to Player while offline\n\
-					"c_server"/offban"c_white" — Block the account while offline\n\
-					"c_server"/spveh"c_white" — Spawn transport within the radius\n\
-					"c_server"/spawncars"c_white" — Spawn all available vehicles", !"Close", !"");
+					"c_server"/ban"c_white" ï¿½ Block Player account (< 30)\n\
+					"c_server"/fip"c_white" ï¿½ existing accounts by IP address\n\
+					"c_server"/unwarn"c_white" ï¿½ Remove warning from Player\n\
+					"c_server"/unmute"c_white" ï¿½ Unblock Player's chat\n\
+					"c_server"/unajail"c_white" ï¿½ Release Player from prison\n\
+					"c_server"/slap"c_white" ï¿½ Toss Player\n\
+					"c_server"/veh"c_white" ï¿½ Create vehicle\n\
+					"c_server"/delveh"c_white" ï¿½ Delete created vehicle\n\
+					"c_server"/delvehall"c_white" ï¿½ Delete all created vehicles\n\
+					"c_server"/plveh"c_white" ï¿½ Give temporary vehicle to Player\n\
+					"c_server"/getip"c_white" ï¿½ Find out Player's IP\n\
+					"c_server"/offmute"c_white" ï¿½ Block Player's chat while offline\n\
+					"c_server"/offajail"c_white" ï¿½ Put Player in jail while offline\n\
+					"c_server"/offwarn"c_white" ï¿½ Issue a warning to Player while offline\n\
+					"c_server"/offban"c_white" ï¿½ Block the account while offline\n\
+					"c_server"/spveh"c_white" ï¿½ Spawn transport within the radius\n\
+					"c_server"/spawncars"c_white" ï¿½ Spawn all available vehicles", !"Close", !"");
 		        }
 		        case 4:
 		        {
 		            if(admin_level[playerid] < 5) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Admin Expert", !"\
-					"c_server"/o"c_white" — OOC message for Players\n\
-					"c_server"/skin"c_white" — Give temporary clothing to Player\n\
-					"c_server"/setskin"c_white" — Give permanent clothing to Player (Broken)\n\
-					"c_server"/warn"c_white" — Give a warning to Player\n\
-					"c_server"/templeader"c_white" — Appoint yourself as temporary leader\n\
-					"c_server"/getonline"c_white" — Information about Player online status\n\
-					"c_server"/unban"c_white" — Unban Player\n\
-					"c_server"/unbanip"c_white" — Unban IP address\n\
-					"c_server"/setfaction"c_white" — Accept Player into the organization\n\
-					"c_server"/infoip"c_white" — Information about the IP address\n\
-					"c_server"/getfake"c_white" — Search for information by IP address\n\
-					"c_server"/setvw"c_white" — Teleport to another virtual world\n\
-					"c_server"/setint"c_white" — Move to another interior", !"Close", !"");
+					"c_server"/o"c_white" ï¿½ OOC message for Players\n\
+					"c_server"/skin"c_white" ï¿½ Give temporary clothing to Player\n\
+					"c_server"/setskin"c_white" ï¿½ Give permanent clothing to Player (Broken)\n\
+					"c_server"/warn"c_white" ï¿½ Give a warning to Player\n\
+					"c_server"/templeader"c_white" ï¿½ Appoint yourself as temporary leader\n\
+					"c_server"/getonline"c_white" ï¿½ Information about Player online status\n\
+					"c_server"/unban"c_white" ï¿½ Unban Player\n\
+					"c_server"/unbanip"c_white" ï¿½ Unban IP address\n\
+					"c_server"/setfaction"c_white" ï¿½ Accept Player into the organization\n\
+					"c_server"/infoip"c_white" ï¿½ Information about the IP address\n\
+					"c_server"/getfake"c_white" ï¿½ Search for information by IP address\n\
+					"c_server"/setvw"c_white" ï¿½ Teleport to another virtual world\n\
+					"c_server"/setint"c_white" ï¿½ Move to another interior", !"Close", !"");
 		        }
 		        case 5:
 		        {
 		            if(admin_level[playerid] < 6) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Head of Staff", !"\
-					"c_server"/unadmin"c_white" — Remove Administrator\n\
-					"c_server"/agun"c_white" — Give weapons to Player\n\
-					"c_server"/givemoney"c_white" — Give in-game currency to Player\n\
-					"c_server"/settime"c_white" — Change time on the server\n\
-					"c_server"/agl"c_white" — Give licenses to Player\n\
-					"c_server"/fullgwh"c_white" — Decommission warehouses for all Organizations\n\
-					"c_server"/auninvite"c_white" — Fire Player from the organization\n\
-					"c_server"/skick"c_white" — Quietly disconnect Player from the server", !"Close", !"");
+					"c_server"/unadmin"c_white" ï¿½ Remove Administrator\n\
+					"c_server"/agun"c_white" ï¿½ Give weapons to Player\n\
+					"c_server"/givemoney"c_white" ï¿½ Give in-game currency to Player\n\
+					"c_server"/settime"c_white" ï¿½ Change time on the server\n\
+					"c_server"/agl"c_white" ï¿½ Give licenses to Player\n\
+					"c_server"/fullgwh"c_white" ï¿½ Decommission warehouses for all Organizations\n\
+					"c_server"/auninvite"c_white" ï¿½ Fire Player from the organization\n\
+					"c_server"/skick"c_white" ï¿½ Quietly disconnect Player from the server", !"Close", !"");
 		        }
 		        case 6:
 		        {
 		            if(admin_level[playerid] < 7) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Project Manager", !"\
-					"c_server"/givedonate"c_white" — Give Player Donates\n\
-					"c_server"/createpromo"c_white" — Create a new promo code\n\
-					"c_server"/promo"c_white" — List of available promo codes\n\
-					"c_server"/election"c_white" — Control Panel for Elections\n\
-					"c_server"/ahouse"c_white" — Teleport to the House\n\
-					"c_server"/abiz"c_white" — Teleport to the business\n\
-					"c_server"/afuel"c_white" — Teleport to the gas station\n\
-					"c_server"/freezepanel"c_white" — Statuses of gang freezes", !"Close", !"");
+					"c_server"/givedonate"c_white" ï¿½ Give Player Donates\n\
+					"c_server"/createpromo"c_white" ï¿½ Create a new promo code\n\
+					"c_server"/promo"c_white" ï¿½ List of available promo codes\n\
+					"c_server"/election"c_white" ï¿½ Control Panel for Elections\n\
+					"c_server"/ahouse"c_white" ï¿½ Teleport to the House\n\
+					"c_server"/abiz"c_white" ï¿½ Teleport to the business\n\
+					"c_server"/afuel"c_white" ï¿½ Teleport to the gas station\n\
+					"c_server"/freezepanel"c_white" ï¿½ Statuses of gang freezes", !"Close", !"");
 		        }
 		        case 7:
 		        {
 		            if(admin_level[playerid] < 8) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Founder", !"\
-					"c_server"/restart"c_white" — Restart the server\n\
-					"c_server"/anticheat"c_white" — AntiCheatSetting (Av-Ac)\n\
-					"c_server"/alog"c_white" — Administrator actions\n\
-					"c_server"/banip"c_white" — Block IP address\n\
-					"c_server"/addnotify"c_white" — Add a message for the Player (upon entry)\n\
-					"c_server"/asellhouse"c_white" — Sell the House to the state\n\
-					"c_server"/asellbiz"c_white" — Sell the business to the state\n\
-					"c_server"/asellfuel"c_white" — Sell the gas station to the state\n\
-					"c_server"/makeadmin"c_white" — Appoint Administrator\n\
-					"c_server"/bonus"c_white" — Bonus Management Panel\n\
-					"c_server"/setprod"c_white" — Set 20,000 products for all businesses\n\
-					"c_server"/setbizname"c_white" — Change the name of the business\n\
-					"c_server"/saveall"c_white" — Save all data\n\
-					"c_server"/payday"c_white" — Launch PayDay\n\
-					"c_server"/setlevel"c_white" — Set Player Level\n\
-					"c_server"/sptext"c_white" — Write a message on behalf of the Player\n\
-					"c_server"/delacc"c_white" — Delete account", !"Close", !"");
+					"c_server"/restart"c_white" ï¿½ Restart the server\n\
+					"c_server"/anticheat"c_white" ï¿½ AntiCheatSetting (Av-Ac)\n\
+					"c_server"/alog"c_white" ï¿½ Administrator actions\n\
+					"c_server"/banip"c_white" ï¿½ Block IP address\n\
+					"c_server"/addnotify"c_white" ï¿½ Add a message for the Player (upon entry)\n\
+					"c_server"/asellhouse"c_white" ï¿½ Sell the House to the state\n\
+					"c_server"/asellbiz"c_white" ï¿½ Sell the business to the state\n\
+					"c_server"/asellfuel"c_white" ï¿½ Sell the gas station to the state\n\
+					"c_server"/makeadmin"c_white" ï¿½ Appoint Administrator\n\
+					"c_server"/bonus"c_white" ï¿½ Bonus Management Panel\n\
+					"c_server"/setprod"c_white" ï¿½ Set 20,000 products for all businesses\n\
+					"c_server"/setbizname"c_white" ï¿½ Change the name of the business\n\
+					"c_server"/saveall"c_white" ï¿½ Save all data\n\
+					"c_server"/payday"c_white" ï¿½ Launch PayDay\n\
+					"c_server"/setlevel"c_white" ï¿½ Set Player Level\n\
+					"c_server"/sptext"c_white" ï¿½ Write a message on behalf of the Player\n\
+					"c_server"/delacc"c_white" ï¿½ Delete account", !"Close", !"");
 		        }
 		        case 8:
 		        {
 		            if(admin_level[playerid] < 7) return SendClientMessage(playerid, col_grey, !"You have not reached this level yet.");
 
 		            SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Admin Commands", !"\
-					"c_server"/offadmins"c_white" — List of Admins [offline]\n\
-					"c_server"/offleaders"c_white" — List of Leaders [offline]\n\
-					"c_server"/makeleader"c_white" — Appoint as Leader of the Organization\n\
-					"c_server"/unleader"c_white" — Remove from Leader of the Organization\n\
-					"c_server"/bsetmafia"c_white" — Change Rent Business\n\
-					"c_server"/setterc"c_white" — Change Rent Territory", !"Close", !"");
+					"c_server"/offadmins"c_white" ï¿½ List of Admins [offline]\n\
+					"c_server"/offleaders"c_white" ï¿½ List of Leaders [offline]\n\
+					"c_server"/makeleader"c_white" ï¿½ Appoint as Leader of the Organization\n\
+					"c_server"/unleader"c_white" ï¿½ Remove from Leader of the Organization\n\
+					"c_server"/bsetmafia"c_white" ï¿½ Change Rent Business\n\
+					"c_server"/setterc"c_white" ï¿½ Change Rent Territory", !"Close", !"");
 				}
 		    }
 		}
@@ -71625,10 +71630,10 @@ function second_timer()
 	{
 		switch(random(4))
 		{
-	   		case 0: SendClientMessageToAll(col_white, ""c_server"—"c_white"Welcome to the city:"c_server""SERVERNAME""c_white" | Our Telegram Channel:"c_server""SERVER_CHANNEL"");
-			case 1: SendClientMessageToAll(col_white, ""c_server"—"c_white"For server news, refer to our Telegram channel:"c_server""SERVER_CHANNEL"");
-			case 2: SendClientMessageToAll(col_white, ""c_server"—"c_white"If you invite someone to the server, you receive"c_server"5,000,000$"c_white"By inviting your friends, gain 3 levels."c_server"3 levels"c_white" ");
-			case 3: SendClientMessageToAll(col_white, ""c_server"—"c_white"By purchasing donations, gain special abilities:"c_server""SERVER_CHANNEL"");
+	   		case 0: SendClientMessageToAll(col_white, ""c_server"ï¿½"c_white"Welcome to the city:"c_server""SERVERNAME""c_white" | Our Telegram Channel:"c_server""SERVER_CHANNEL"");
+			case 1: SendClientMessageToAll(col_white, ""c_server"ï¿½"c_white"For server news, refer to our Telegram channel:"c_server""SERVER_CHANNEL"");
+			case 2: SendClientMessageToAll(col_white, ""c_server"ï¿½"c_white"If you invite someone to the server, you receive"c_server"5,000,000$"c_white"By inviting your friends, gain 3 levels."c_server"3 levels"c_white" ");
+			case 3: SendClientMessageToAll(col_white, ""c_server"ï¿½"c_white"By purchasing donations, gain special abilities:"c_server""SERVER_CHANNEL"");
 		}
 	}
 	if(minute == 37 && second == 00)
@@ -72829,7 +72834,7 @@ SetPlayerCameraPos(playerid,1023.000,-1116.000,70.000);
 
 stock dialog_registration(playerid)
 {
-    SPD(playerid, 2, DIALOG_STYLE_INPUT, !""c_server"Register", !""c_white"Welcome to "c_server""SERVERNAME""c_white".\nPlease enter your password.\n:\n\n"c_grey"— Your password must be between 6 and 16 characters.\n— Please do not share this password with anyone.\n— Do not forget your password.", !"Okay", !"Cancel");
+    SPD(playerid, 2, DIALOG_STYLE_INPUT, !""c_server"Register", !""c_white"Welcome to "c_server""SERVERNAME""c_white".\nPlease enter your password.\n:\n\n"c_grey"ï¿½ Your password must be between 6 and 16 characters.\nï¿½ Please do not share this password with anyone.\nï¿½ Do not forget your password.", !"Okay", !"Cancel");
 	return 1;
 }
 
@@ -76788,7 +76793,7 @@ stock pay_day_time()
 		}
 
 		text_string[0] = EOS;
-        SendClientMessage(i, col_white, "—————— ["c_yellow"Bank check"c_white"] ——————");
+        SendClientMessage(i, col_white, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ["c_yellow"Bank check"c_white"] ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		format(text_string, sizeof(text_string), "Current time: "c_yellow"%02d:%02d", hour, minute);
 		SendClientMessage(i, col_white, text_string);
 
@@ -76811,7 +76816,7 @@ stock pay_day_time()
 		SendClientMessage(i, col_white, text_string);
 
 		GameTextForPlayer(i, "~w~PayDay", 5000, 1);
-		SendClientMessage(i, col_white, !"——————————————————————");
+		SendClientMessage(i, col_white, !"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 	    new exp_amount = 1;
 		if(p_info[i][pVip] == 3)
@@ -81429,17 +81434,17 @@ function bonus_promocode(playerid)
 				strcat(slobal_string, text_string);
 			}
 
-			if(promo_lic[0] >= 1) strcat(slobal_string, "\n"c_white"— Driver's license");
-			if(promo_lic[1] >= 1) strcat(slobal_string, "\n"c_white"— Air transport license");
-			if(promo_lic[2] >= 1) strcat(slobal_string, "\n"c_white"— Water transport license");
-			if(promo_lic[3] >= 1) strcat(slobal_string, "\n"c_white"— Weapon carrying license\n");
+			if(promo_lic[0] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ Driver's license");
+			if(promo_lic[1] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ Air transport license");
+			if(promo_lic[2] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ Water transport license");
+			if(promo_lic[3] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ Weapon carrying license\n");
 
-			if(promo_gun[0] >= 1) strcat(slobal_string, "\n"c_white"— Silenced Pistol");
-			if(promo_gun[1] >= 1) strcat(slobal_string, "\n"c_white"— Desert Eagle");
-			if(promo_gun[2] >= 1) strcat(slobal_string, "\n"c_white"— Shotgun");
-			if(promo_gun[3] >= 1) strcat(slobal_string, "\n"c_white"— MP5");
-			if(promo_gun[4] >= 1) strcat(slobal_string, "\n"c_white"— AK-47");
-			if(promo_gun[5] >= 1) strcat(slobal_string, "\n"c_white"— M4");
+			if(promo_gun[0] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ Silenced Pistol");
+			if(promo_gun[1] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ Desert Eagle");
+			if(promo_gun[2] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ Shotgun");
+			if(promo_gun[3] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ MP5");
+			if(promo_gun[4] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ AK-47");
+			if(promo_gun[5] >= 1) strcat(slobal_string, "\n"c_white"ï¿½ M4");
 			SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Promo Code", slobal_string, !"Close", !"");
 
 			SavePlayerLicenses(playerid);
@@ -82754,7 +82759,6 @@ cmd:dgun(playerid, params[])
         }
         return 1;
 }
-alias:jp("Jetpack.", "Jet.");
 cmd:jp(playerid)
 {
     if(admin_level[playerid] < 2 || !admin_logged[playerid]) return 1;
