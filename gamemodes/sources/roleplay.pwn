@@ -42998,25 +42998,6 @@ CreateObject(846, -1512.23315, 2261.02197, 333.87390,   -4.00000, 0.00000, 18.00
 	DestroyObject(objcount);
 	SetTimer("HungerSystem", 1000, 1); SetTimer("HungerValues", 230000, 1); SetTimer("ValueHungerDown", 26000, 1);
 	SetTimer("WaterSystem", 1000, 1); SetTimer("WaterValues", 230000, 1); SetTimer("ValueWaterDown", 26000, 1);
-
-	// Register command aliases
-	PC_RegAlias("lights", "lg");
-	PC_RegAlias("engine", "en");
-	PC_RegAlias("licenses", "license");
-	PC_RegAlias("report", "rep");
-	PC_RegAlias("n", "b");
-	PC_RegAlias("megaphone", "m");
-	PC_RegAlias("suspect", "su");
-	PC_RegAlias("setspawn", "changespawn", "spa");
-	PC_RegAlias("gps", "tp");
-	PC_RegAlias("quest", "event");
-	PC_RegAlias("donate", "donate", "done");
-	PC_RegAlias("re", "sp");
-	PC_RegAlias("reoff", "spoff");
-	PC_RegAlias("menu", "mm", "mn");
-	PC_RegAlias("lock", "lk");
-	PC_RegAlias("jp", "Jetpack.", "Jet.");
-
 	return 1;
 }
 
@@ -46967,6 +46948,7 @@ CMD:car(playerid)
 	return SPD(playerid, 4710, DIALOG_STYLE_TABLIST, !""c_server"Slot selection", String, "Choose", "Back");
 }
 
+alias:lights("lg")
 CMD:lights(playerid)
 {
     if(GetPlayerState(playerid) != PLAYER_STATE_DRIVER) return SendClientMessage(playerid, COLOR_GREY, "You are not in the driver's seat.");
@@ -46999,6 +46981,7 @@ CMD:lights(playerid)
 	return SetVehicleParamsEx(vehicleid,engine,1,alarm,doors,bonnet,boot,objective);
 }
 
+alias:engine("en")
 CMD:engine(playerid)
 {
     if(GetPlayerState(playerid) != PLAYER_STATE_DRIVER) return SendClientMessage(playerid, COLOR_GREY, "You are not in the driver's seat.");
@@ -47091,6 +47074,7 @@ CMD:fishing(playerid)// ?????? ????
 	return 1;
 }
 
+alias:licenses("license")
 CMD:licenses(playerid, params[])
 {
     extract params -> new to_player; else return SendClientMessage(playerid, -1, "/licenses(/lic) [Player id]");
@@ -47441,6 +47425,7 @@ CMD:frisk(playerid, params[])
 	return 1;
 }
 
+alias:report("rep")
 cmd:report(playerid)
 {
     if(p_info[playerid][mute] > 0) return PlayerMuted(playerid);
@@ -47530,6 +47515,7 @@ CMD:do(playerid, params[])
 	return 1;
 }
 
+alias:n("b")
 CMD:n(playerid, params[])
 {
     if(p_info[playerid][mute] > 0) return PlayerMuted(playerid);
@@ -48314,6 +48300,7 @@ CMD:uncuff(playerid, params[])
 	return 1;
 }
 
+alias:megaphone("m")
 CMD:megaphone(playerid,params[])
 {
     if(!IsACop(playerid) && !IsAArmy(playerid)) return SendClientMessage(playerid, COLOR_GREY, "You cannot use this command.");
@@ -48448,6 +48435,7 @@ CMD:dn(playerid, params[])
 	return 1;
 }
 
+alias:suspect("su")
 CMD:suspect(playerid, params[])
 {
     if(!IsACop(playerid)) return SendClientMessage(playerid, COLOR_GREY, "Only factions and FBI are allowed.");
@@ -48908,6 +48896,7 @@ CMD:members(playerid, params[])
 	return SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, !""c_server"Eezay The organization online", String, "Close", "");
 }
 
+alias:setspawn("changespawn", "spa")
 cmd:setspawn(playerid)
 {
     SPD(playerid, 8, DIALOG_STYLE_LIST, !""c_server"Choose Your Spawn Location", !""c_server"[1]"c_white" At the station\n"c_server"[2]"c_white" In your own House\n"c_server"[3]"c_white" organization's base\n"c_server"[4]"c_white" In the hotel\n"c_server"[5]"c_white" In the family House", !"Choose", !"Cancel");
@@ -49688,6 +49677,7 @@ cmd:gps(playerid, params[])
 	"c_server"[14]"c_white" Nearest ATM\n", !"Choose", !"Cancel");
 	return 1;
 }
+alias:gps("tp")
 
 CMD:f(playerid, params[])
 {
@@ -49781,6 +49771,8 @@ CMD:atm(playerid)
 }
 
 CMD:quest(playerid) return ShowPlayerBegQuests(playerid);
+alias:quest("event")
+
 
 CMD:bank(playerid)
 {
@@ -49814,6 +49806,7 @@ cmd:donate(playerid)
 	"c_server"[14]"c_white" Hostry 1000 Donates", !"Choose", !"Close");
 	return 1;
 }
+alias:donate("donate", "done")
 
 stock UpdateDonate(playerid)
 {
@@ -50211,6 +50204,7 @@ cmd:arep(playerid, params[])
 	return 1;
 }
 
+alias:re("sp")
 cmd:re(playerid, params[])
 {
     if(admin_level[playerid] < 2 || !admin_logged[playerid]) return 1;
@@ -50235,6 +50229,7 @@ cmd:re(playerid, params[])
 	return 1;
 }
 
+alias:reoff("spoff")
 cmd:reoff(playerid, params[])
 {
     if(admin_level[playerid] < 2 || !admin_logged[playerid]) return 1;
@@ -52439,6 +52434,7 @@ CMD:t(playerid, params[])
 	return 1;
 }
 
+alias:menu("mm", "mn")
 cmd:menu(playerid, params[])
 {
 	SPD(playerid, 85, DIALOG_STYLE_LIST, !""c_server"Game Menu", !"\
@@ -52938,6 +52934,7 @@ CMD:key(playerid)
 	return 1;
 }
 
+alias:lock("lk")
 cmd:lock(playerid, params[])
 {
 	extract params -> new lock_type; else return SendClientMessage(playerid, col_grey, !"Use: /lock [type] (1 - Home car 2 - Rented car 3 - Work vehicle 4 - Family car)");
@@ -82759,6 +82756,7 @@ cmd:dgun(playerid, params[])
         }
         return 1;
 }
+alias:jp("Jetpack.", "Jet.")
 cmd:jp(playerid)
 {
     if(admin_level[playerid] < 2 || !admin_logged[playerid]) return 1;
