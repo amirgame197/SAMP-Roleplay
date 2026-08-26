@@ -32,7 +32,7 @@ CREATE TABLE `accounts` (
   `pName` varchar(32) CHARACTER SET cp1251 COLLATE cp1251_bin NOT NULL,
   `pPassword` varchar(32) CHARACTER SET cp1251 COLLATE cp1251_bin NOT NULL,
   `pass_salt` varchar(6) NOT NULL,
-  `pKeyIp` varchar(11) CHARACTER SET cp1251 COLLATE cp1251_bin NOT NULL,
+  `pKeyIp` varchar(16) CHARACTER SET cp1251 COLLATE cp1251_bin NOT NULL DEFAULT '',
   `pMail` varchar(32) CHARACTER SET cp1251 COLLATE cp1251_bin NOT NULL,
   `pIpReg` varchar(16) CHARACTER SET cp1251 COLLATE cp1251_bin NOT NULL,
   `pIp` varchar(32) CHARACTER SET cp1251 COLLATE cp1251_bin NOT NULL,
