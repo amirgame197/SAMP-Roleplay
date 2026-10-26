@@ -89,6 +89,8 @@ bin/pawncc "../filterscripts\sources\3DSpeedo.pwn" -i"include" -o"../filterscrip
     Type=simple
     Restart=on-failure
     RestartSec=5s
+    TimeoutStopSec=10s
+    KillSignal=SIGINT
     WorkingDirectory=/PATH/TO/SAMP-SERVER
     ExecStart=/bin/bash -c './samp03svr & tail -f server_log.txt'
 
